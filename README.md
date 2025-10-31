@@ -1,7 +1,10 @@
 # Task-8-Elevate-labs
 
 🐳 Deploying a Dockerized Python Web App to AWS ECS
+
 This project demonstrates how to containerize a simple Python Flask web application using Docker and deploy it to the cloud with AWS Elastic Container Service (ECS) and AWS Fargate. The goal is to understand cloud-native deployment and make modern apps portable, scalable, and easy to launch anywhere.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🚀 What I Did
 Built a Simple Web App: Created a minimal Flask app that returns a greeting at the root URL.
@@ -18,7 +21,10 @@ Deployed on AWS ECS (Fargate): Launched the Docker container as a managed servic
 
 Verified Deployment: Successfully accessed my cloud app in a browser using the assigned public IP on port 8080.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 📝 What the Container Does
+
 The container runs a lightweight Python Flask web server that listens on port 8080 and serves a simple greeting when accessed. You can visit the URL or public IP of the deployed AWS ECS task and see the message:
 
 "Hello from my Dockerized Cloud App!"
